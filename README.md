@@ -20,4 +20,4 @@ JWT_SECRET=your_secret_key
 
 ---
 
-**Recuerda ejecutar *npm install* para instalar todas las dependencias requeridas**
+Recuerda ejecutar ***npm install*** para instalar todas las dependencias requeridas
