@@ -1,5 +1,9 @@
 # Proyecto backend diplomado BIT
 
+**Desarrollado por:**  
+- Jorge Eduardo Amaya Narváez  
+- Jorge Asdrúbal Ortega González 
+
 Este proyecto utiliza variables de entorno para su configuración y requiere la instalación de dependencias para funcionar correctamente.
 
 ---
@@ -13,8 +17,6 @@ PORT=3000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
 
-Recuerda ejecutar npm install
+---
 
-**Desarrollado por:**  
-- Jorge Eduardo Amaya Narváez  
-- Jorge Asdrúbal Ortega González 
+**Ejecuta *npm install* **
