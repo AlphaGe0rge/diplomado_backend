@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Conectar a la base de datos
-
+connectDB();
 
 // Rutas
 const userRoutes = require('./routes/user.route');
