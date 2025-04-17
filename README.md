@@ -16,7 +16,6 @@ Asegúrate de crear un archivo `.env` en la raíz del proyecto con las siguiente
 PORT=3000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
+```
 
----
-
-**Ejecuta *npm install* **
+**Ejecuta *npm install***
