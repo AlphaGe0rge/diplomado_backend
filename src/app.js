@@ -16,9 +16,11 @@ connectDB();
 // Rutas
 const userRoutes = require('./routes/user.route');
 const authRoutes = require('./routes/auth.route');
+const validationRoutes = require('./routes/validations.route')
 
 app.use('/api/users', userRoutes);
 app.use('/api/auth', authRoutes);
+app.use('/api/validations', validationRoutes)
 
 // Middleware de manejo global de errores
 const errorHandler = require('./middlewares/errorHandler');
